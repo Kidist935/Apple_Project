@@ -6,18 +6,18 @@ import "./YoutubeVideos.css";
 function YoutubeVideos() {
   const [videos, setVideos] = useState([]);
 
-//   useEffect(() => {
-//     fetch(
-//       `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=8&order=date&key=AIzaSyCCpbXbaQl52qYD-Ug1vIje0RSMLVJ-328 `
-//     )
-//       .then((res) => res.json())
-//       .then((data) => {
-//         // console.log(data);
-//         setVideos(data.items);
-//       });
-//   }, []);
+  useEffect(() => {
+    fetch(
+      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=8&order=date&key=AIzaSyCCpbXbaQl52qYD-Ug1vIje0RSMLVJ-328 `
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        // console.log(data);
+        setVideos(data.items);
+      });
+  }, []);
 
-  //   console.log(videos);
+    console.log(videos);
 
   return (
     <section className="yotubevideo-wrapper"> 
