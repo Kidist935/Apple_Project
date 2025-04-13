@@ -21,6 +21,7 @@ import SharedLayout from './components/SharedLayout/SharedLayout'
 import FourO4 from './Pages/FourO4/FourO4'
 import LearnMore from './Pages/Iphone/LearnMore'
 
+
 // import { Routes } from 'react-router-dom'
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
     <Routes>
     <Route path='/' element={ <SharedLayout />}>
     <Route path='/' element={<MainSection />}/>
+    <Route path='/' element={<YoutubeVideos />}/>
+    
     <Route path='mac' element={<Mac />}/>
     <Route path='iphone' element={<Iphone />}/>
     <Route path='ipad' element={<Ipad />}/>
@@ -47,7 +50,7 @@ function App() {
     </Route>
     </Routes>
 
-    <YoutubeVideos/>
+    {/* <YoutubeVideos/> */}
     </>
 
 
