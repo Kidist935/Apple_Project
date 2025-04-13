@@ -1,0 +1,12 @@
+
+
+API_KEY = AIzaSyCCpbXbaQl52qYD-Ug1vIje0RSMLVJ-328
+
+APPLE_CHANNEL_ID = UCE_M8A5yxnLfW0KghEeajjw
+
+APPLEFOR_CHANNEL ID = https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=apple&maxResults=9&key=AIzaSyCCpbXbaQl52qYD-Ug1vIje0RSMLVJ-328
+
+URL= https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=9&order=date&key=AIzaSyCCpbXbaQl52qYD-Ug1vIje0RSMLVJ-328 
+
+
+
